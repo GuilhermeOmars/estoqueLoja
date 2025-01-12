@@ -1,0 +1,58 @@
+ /* Estilo geral */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F4E4; /* Cor suave de fundo, parecida com a cor do corpo da girafa */
+    color: #4C3C28; /* Cor marrom escuro, para o texto */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Link de voltar */
+a {
+    color: #D57A3D; /* Cor laranja suave, semelhante ao tom da pelagem */
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Estilo do título */
+h2 {
+    font-size: 24px;
+    color: #9A7B4F; /* Cor de marrom claro */
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #F2E2B0; /* Cor de fundo amarela suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #D57A3D; /* Bordas da cor marrom suave */
+}
+
+th {
+    background-color: #9A7B4F; /* Cor de fundo de cabeçalho */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F4E4; /* Linhas alternadas com fundo claro */
+}
+
+tr:nth-child(odd) {
+    background-color: #F2E2B0; /* Linhas alternadas com fundo amarelado */
+}
+
+tr:hover {
+    background-color: #D57A3D; /* Cor ao passar o mouse sobre as linhas */
+    color: white;
+}

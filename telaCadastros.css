@@ -1,0 +1,68 @@
+/* Estilo geral inspirado nas cores de uma girafa */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F4E4; /* Bege claro, cor base */
+    color: #4C3C28; /* Marrom escuro para o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #F2E2B0; /* Amarelo suave, inspirado na pelagem */
+    border: 2px solid #9A7B4F; /* Marrom claro para a borda */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    color: #9A7B4F; /* Marrom claro */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"], 
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #9A7B4F;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    background-color: #FDF5E6; /* Tom claro para o campo de texto */
+    color: #4C3C28;
+}
+
+input[type="submit"] {
+    background-color: #D57A3D; /* Laranja queimado para o botão */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #9A7B4F; /* Marrom mais escuro ao passar o mouse */
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #D57A3D;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9A7B4F;
+}

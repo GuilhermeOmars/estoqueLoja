@@ -1,0 +1,49 @@
+/* Estilo geral com cores suaves de girafa */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F4E4; /* Bege claro, cor base */
+    color: #4C3C28; /* Marrom escuro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilização dos títulos */
+h2 {
+    color: #9A7B4F; /* Marrom claro */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilo das seções de links */
+#telaCadastro, #telaVisualizar {
+    background-color: #F2E2B0; /* Amarelo suave */
+    border: 2px solid #9A7B4F; /* Marrom claro */
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilo dos links */
+a {
+    display: block;
+    background-color: #D57A3D; /* Laranja queimado */
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #9A7B4F; /* Marrom mais escuro */
+}
